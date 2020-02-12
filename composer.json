@@ -1,0 +1,34 @@
+{
+    "name": "bigcommerce/api-v3",
+    "type": "library",
+    "description": "Enables PHP applications to communicate with the Bigcommerce API version 3",
+    "keywords": ["api", "http", "rest", "ecommerce", "business"],
+    "homepage": "http://developer.bigcommerce.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammad",
+            "homepage": "http://lync.me/Mohammad"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "firebase/php-jwt": "~3.0|~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8.35",
+        "php-coveralls/php-coveralls": "2.1",
+        "codeless/jugglecode": "1.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Bigcommerce": "src/"
+        },
+        "psr-4": {
+            "Bigcommerce\\Test\\": "test/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
