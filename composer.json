@@ -1,5 +1,5 @@
 {
-    "name": "bigcommerce/api-v3",
+    "name": "mohamm6d/bigcommerce-api-v3",
     "type": "library",
     "description": "Enables PHP applications to communicate with the Bigcommerce API version 3",
     "keywords": ["api", "http", "rest", "ecommerce", "business"],
